@@ -8,9 +8,7 @@ import {
   Connection 
 } from 'typeorm';
 
-import { Author } from '../entities/author';
 import { Category } from '../entities/Category';
-import { Post } from '../entities/post';
 import { Product } from '../entities/Product';
 import { StorageLocation } from '../entities/StorageLocation';
 import { StorageType } from '../entities/StorageType';
@@ -64,9 +62,7 @@ export class DbService {
       logging: ['error', 'query', 'schema'],
       synchronize: true,
       entities: [
-        Author,
         Category,
-        Post,
         Product,
         StorageLocation,
         StorageType,
