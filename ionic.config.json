@@ -1,0 +1,7 @@
+{
+  "name": "ionic4-typeorm-starter",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
